@@ -1,6 +1,6 @@
  
 <div align='center'>
-<img src="https://raw.githubusercontent.com/IR-Community/Parrot/master/parrot.png" width = "400"  alt="logo" align="center" />
+<img src="https://raw.githubusercontent.com/IR-Community/Parrot/master/parrot.png" width = "140"  alt="logo" align="center" />
 </div>
 
 # Parrot [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=MatchZoo:%20deep%20learning%20for%20semantic%20matching&url=https://github.com/NTMC-Community/MatchZoo)
