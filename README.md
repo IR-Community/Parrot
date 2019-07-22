@@ -62,7 +62,13 @@ print(result_set.precision_at(10))
 ## References
 
 
-[Tutorials](https://github.com/NTMC-Community/MatchZoo/tree/master/tutorials)
+[Tutorials](https://github.com/IR-Community/Parrot/tree/master/parrot/examples)
+
+
+## Install
+
+
+**Install MatchZoo from Pypi:**
 
 
 
