@@ -13,7 +13,7 @@
 
 
 
-## An example of using Parrot:
+## Getting Started
 
 
 ```python
