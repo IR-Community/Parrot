@@ -68,7 +68,7 @@ print(result_set.precision_at(10))
 ## Install
 
 
-* Step 1 : [Install Python 3.7](https://www.anaconda.com/distribution/) *
+1. [Install Python 3.7](https://www.anaconda.com/distribution/) *
 
 * Step 2 : [Install Python 3.7](https://www.anaconda.com/distribution/) *
 
