@@ -5,8 +5,8 @@
 
 # Parrot 
 
-Parrot is a Python-based toolkit for information retrieval research. <br>
-It aims to facilitate the implement and diagnosis of information retrieval models.
+>Parrot is a Python-based toolkit for information retrieval research. <br>
+>It aims to facilitate the implement and diagnosis of information retrieval models.
 
 [![Python 3.6](https://img.shields.io/badge/python-3.6%20%7C%203.7-blue.svg)](https://www.python.org/downloads/release/python-360/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-yellowgreen.svg)](https://opensource.org/licenses/Apache-2.0)
