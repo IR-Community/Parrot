@@ -49,11 +49,11 @@ class MyBM25Model(Model):
         return tf_part * idf
 
 model = MyBM25Model(b=0.4, k1=0.9)
+
 result_set = model.run(dataset)
 print(result_set.avg_prec())
 print(result_set.ndcg())
 print(result_set.precision_at(10))
-
 
 ```
 
@@ -68,7 +68,9 @@ print(result_set.precision_at(10))
 ## Install
 
 
-**Install MatchZoo from Pypi:**
+* Install Python 3.6 *
+
+
 
 ## Citation
 
