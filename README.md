@@ -163,7 +163,7 @@ jupyter lab
 
 ```
 
-* Load package parrot from local folder in Jupyter Notebook
+* Load package parrot from local folder in Jupyter Notebook ( Currently Parrot doesn't support pip install  )
 
 ```python
 
