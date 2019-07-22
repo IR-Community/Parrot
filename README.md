@@ -154,9 +154,15 @@ unzip master.zip
 
 cd Parrot-master
 
+* Start Jupyter Lab
+
+```bash
+
 jupyter lab
 
 ```
+
+
 
 
 ## Citation
