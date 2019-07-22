@@ -70,5 +70,30 @@ print(result_set.precision_at(10))
 
 **Install MatchZoo from Pypi:**
 
+## Citation
+
+If you use Parrot in your research, please use the following citation.
+
+```
+@inproceedings{Tu:2019:PPI:3331184.3331393,
+ author = {Tu, Xinhui and Huang, Jimmy and Luo, Jing and Zhu, Runjie and He, Tingting},
+ title = {Parrot: A Python-based Interactive Platform for Information Retrieval Research},
+ booktitle = {Proceedings of the 42Nd International ACM SIGIR Conference on Research and Development in Information Retrieval},
+ series = {SIGIR'19},
+ year = {2019},
+ isbn = {978-1-4503-6172-9},
+ location = {Paris, France},
+ pages = {1289--1292},
+ numpages = {4},
+ url = {http://doi.acm.org/10.1145/3331184.3331393},
+ doi = {10.1145/3331184.3331393},
+ acmid = {3331393},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {deep learning, information retrieval, python},
+} 
+
+```
+
 
 
