@@ -1,9 +1,9 @@
  
-#<div align='center'>
-<img src="https://raw.githubusercontent.com/IR-Community/Parrot/master/parrot.png" width = "100"  alt="logo" align="center" />
-</div> Parrot
 
-# Parrot 
+
+# Parrot <div align='center'>
+<img src="https://raw.githubusercontent.com/IR-Community/Parrot/master/parrot.png" width = "100"  alt="logo" align="center" />
+</div> 
 
 Parrot is a Python-based toolkit for information retrieval research. It aims to facilitate the implement and diagnosis of information retrieval models.
 
