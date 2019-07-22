@@ -87,6 +87,8 @@ print(result_set.precision_at(10))
 
 ```bash
 
+cd ~
+
 curl -O https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh
 
 bash Anaconda3-2019.03-Linux-x86_64.sh
@@ -97,7 +99,41 @@ conda create --name parrot python=3.7
 
 source activate parrot
 
+apt-get update 
 
+apt-get install -y default-jdk ant
+
+cd /usr/lib/jvm/default-java/jre/lib
+
+ln -s ../../lib amd64
+
+mkdir /usr/src/pylucene
+
+cd /usr/src/pylucene
+
+curl https://dist.apache.org/repos/dist/dev/lucene/pylucene/8.1.1-rc2/pylucene-8.1.1-src.tar.gz \
+    | tar -xz --strip-components=1
+
+cd jcc \
+    && JCC_JDK=/usr/lib/jvm/default-java python setup.py install
+    
+make all install JCC='python -m jcc' ANT=ant PYTHON=python NUM_FILES=8
+
+pip install tensorflow
+
+pip install keras
+
+pip install matchzoo
+
+cd ~
+
+wget https://github.com/IR-Community/Parrot/archive/master.zip
+
+unzip master.zip
+
+cd Parrot-master
+
+jupyter lab
 
 ```
 
