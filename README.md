@@ -19,7 +19,6 @@
 ```python
 
 from parrot.core import * 
-from parrot.model import *
 
 # load index, topics and judgements from local folders
 
