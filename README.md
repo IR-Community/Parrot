@@ -20,11 +20,42 @@
 from parrot.core import * 
 from parrot.model import *
 
-import matchzoo as mz
+# load index, topics and judgements from local folders
 
-train_pack = mz.datasets.wiki_qa.load_data('train', task='ranking')
-valid_pack = mz.datasets.wiki_qa.load_data('dev', task='ranking')
-predict_pack = mz.datasets.wiki_qa.load_data('test', task='ranking')
+base = "/Users/tu/Desktop/trec/"
+dataset = DataSet.load(
+    base + "/index/ap90",
+    base + "/topics/ap90-51-100",
+    base + "/qrels/ap90-51-100",
+    True
+)
+
+# implement and run the BM25 model
+
+import math
+
+class MyBM25Model(Model):
+
+    def __init__(self, b=0.75, k1=1.2):
+        self.b = b; self.k1 = k1; 
+
+    def score_term(self, tf: float, tn: float, dl: float,
+                  ql: float, ctf: float, df: float, qtf: float,
+                  ctn: float, C: float, N: float):
+        b = self.b; k1 = self.k1
+        avgdl = C / N
+        idf = math.log(1 + (N - df + 0.5) / (df + 0.5))
+        tf_part = tf * (k1 + 1)\
+                  / (tf + k1 * (1 - b + b * dl / avgdl))
+        return tf_part * idf
+
+model = MyBM25Model(b=0.4, k1=0.9)
+result_set = model.run(dataset)
+print(result_set.avg_prec())
+print(result_set.ndcg())
+print(result_set.precision_at(10))
+
+
 ```
 
 
