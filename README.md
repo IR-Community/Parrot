@@ -1,6 +1,17 @@
+ 
 
-The codes of the project will be released after double-blind peer review.
+### Parrot
 
-[Demo 1](https://github.com/wayne-batman/Parrot/blob/master/bm25.ipynb) shows the example of how to implement the BM25 model. 
+Parrot is a Python-based toolkit for information retrieval research. It aims to facilitate the implement and diagnosis of information retrieval models.
 
-[Demo 2](https://github.com/wayne-batman/Parrot/blob/master/drmm.ipynb) shows the example of how to use the DRMM model for ranking.
+ #### An example of using Parrot:
+
+from parrot.core import * 
+from parrot.model import *
+
+#### References
+
+
+
+
+
