@@ -13,7 +13,7 @@
 
 
 
-## An example of using Parrot:
+## An simple example of using Parrot:
 
 
 ```python
