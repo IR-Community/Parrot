@@ -22,11 +22,10 @@ from parrot.model import *
 
 # load index, topics and judgements from local folders
 
-base = "/Users/tu/Desktop/trec/"
 dataset = DataSet.load(
-    base + "/index/ap90",
-    base + "/topics/ap90-51-100",
-    base + "/qrels/ap90-51-100",
+    base + "./index/ap90",
+    base + "./topics/ap90-51-100",
+    base + "./qrels/ap90-51-100",
     True
 )
 
@@ -63,6 +62,7 @@ print(result_set.precision_at(10))
 ## References
 
 
+[Tutorials](https://github.com/NTMC-Community/MatchZoo/tree/master/tutorials)
 
 
 
