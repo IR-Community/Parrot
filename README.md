@@ -52,6 +52,7 @@ class MyBM25Model(Model):
 model = MyBM25Model(b=0.4, k1=0.9)
 
 result_set = model.run(dataset)
+
 print(result_set.avg_prec())
 print(result_set.ndcg())
 print(result_set.precision_at(10))
@@ -85,6 +86,8 @@ print(result_set.precision_at(10))
 
 #### Install script for Ubuntu
 
+* Python 
+
 ```bash
 
 cd ~
@@ -98,6 +101,12 @@ source ~/.bashrc
 conda create --name parrot python=3.7
 
 source activate parrot
+
+```
+
+* PyLuncene  
+
+```bash
 
 apt-get update 
 
@@ -119,11 +128,23 @@ cd jcc \
     
 make all install JCC='python -m jcc' ANT=ant PYTHON=python NUM_FILES=8
 
+```
+
+* Tensorflow, Kears, and Matchzoo
+
+```bash
+
 pip install tensorflow
 
 pip install keras
 
 pip install matchzoo
+
+```
+
+* Parrot
+
+```bash
 
 cd ~
 
@@ -162,6 +183,8 @@ If you use Parrot in your research, please use the following citation.
 } 
 
 ```
+
+
 
 
 
