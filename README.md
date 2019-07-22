@@ -69,7 +69,7 @@ print(result_set.precision_at(10))
 ## Install
 
 
-####  Python is dependent on PyLucene, TensorFlow, Keras, and MatchZoo.
+####  Parrot is dependent on PyLucene, TensorFlow, Keras, and MatchZoo.
 
 
 * [Python 3.7](https://www.anaconda.com/distribution/)
@@ -86,7 +86,17 @@ print(result_set.precision_at(10))
 #### Install script for Ubuntu
 
 ```
-pip install 
+curl -O https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh
+
+bash Anaconda3-2019.03-Linux-x86_64.sh
+
+source ~/.bashrc
+
+conda create --name parrot python=3.7
+
+source activate parrot
+
+
 
 ```
 
