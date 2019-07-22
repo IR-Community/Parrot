@@ -1,6 +1,6 @@
  
 <div align='center'>
-<img src="https://raw.githubusercontent.com/IR-Community/Parrot/master/parrot.png" width = "300"  alt="logo" align="center" />
+<img src="https://raw.githubusercontent.com/IR-Community/Parrot/master/parrot.png" width = "200"  alt="logo" align="center" />
 </div> 
 
 # Parrot 
