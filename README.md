@@ -1,7 +1,7 @@
  
-<div align='center'>
+#<div align='center'>
 <img src="https://raw.githubusercontent.com/IR-Community/Parrot/master/parrot.png" width = "100"  alt="logo" align="center" />
-</div>
+</div> Parrot
 
 # Parrot 
 
