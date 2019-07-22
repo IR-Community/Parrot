@@ -207,6 +207,6 @@ If you use Parrot in your research, please use the following citation.
 
 
 
-Some codes are from other open source project. <br>
+Some codes are from other open source projects. <br>
 (e.g., https://github.com/umeat/unlzw, A Python decompression module for .Z files). 
 
