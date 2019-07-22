@@ -17,6 +17,7 @@
 
 
 ```python
+
 from parrot.core import * 
 from parrot.model import *
 
@@ -68,7 +69,7 @@ print(result_set.precision_at(10))
 ## Install
 
 
-Python is dependent on PyLucene, TensorFlow, Keras, and MatchZoo.
+### Python is dependent on PyLucene, TensorFlow, Keras, and MatchZoo.
 
 
 * [Python 3.7](https://www.anaconda.com/distribution/)
@@ -81,6 +82,13 @@ Python is dependent on PyLucene, TensorFlow, Keras, and MatchZoo.
 
 * [MatchZoo](https://github.com/NTMC-Community/MatchZoo)
 
+
+### Install script for Ubuntu
+
+```
+pip install 
+
+```
 
 
 ## Citation
