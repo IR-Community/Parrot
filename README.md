@@ -68,9 +68,9 @@ print(result_set.precision_at(10))
 ## Install
 
 
-1. [Python 3.7](https://www.anaconda.com/distribution/) *
+* [Python 3.7](https://www.anaconda.com/distribution/) *
 
-2. [PyLucene](https://lucene.apache.org/pylucene/) *
+*  [PyLucene](https://lucene.apache.org/pylucene/) *
 
 
 
