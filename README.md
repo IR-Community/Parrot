@@ -85,7 +85,7 @@ print(result_set.precision_at(10))
 
 #### Install script for Ubuntu
 
-* Python 
+* install Python 
 
 ```bash
 
@@ -103,7 +103,7 @@ source activate parrot
 
 ```
 
-* PyLuncene  
+* install PyLuncene  
 
 ```bash
 
@@ -129,7 +129,7 @@ make all install JCC='python -m jcc' ANT=ant PYTHON=python NUM_FILES=8
 
 ```
 
-* Tensorflow, Kears, and Matchzoo
+* install Tensorflow, Kears, and Matchzoo
 
 ```bash
 
@@ -141,7 +141,7 @@ pip install matchzoo
 
 ```
 
-* Parrot
+* install Parrot
 
 ```bash
 
@@ -155,13 +155,15 @@ cd Parrot-master
 
 ```
 
-* Start Jupyter Lab
+* start Jupyter
 
 ```bash
 
 jupyter lab
 
 ```
+
+* load package parrot from local folder
 
 
 
