@@ -68,9 +68,13 @@ print(result_set.precision_at(10))
 ## Install
 
 
-* [Python 3.7](https://www.anaconda.com/distribution/) *
+* [Python 3.7](https://www.anaconda.com/distribution/)
 
-*  [PyLucene](https://lucene.apache.org/pylucene/) *
+* [PyLucene](https://lucene.apache.org/pylucene/)
+
+* [TensorFlow](https://www.tensorflow.org/install)
+
+* [MatchZoo](https://github.com/NTMC-Community/MatchZoo)
 
 
 
