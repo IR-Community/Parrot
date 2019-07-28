@@ -23,9 +23,9 @@ from parrot.core import *
 # load index, topics and judgements from local folders
 
 dataset = DataSet.load(
-    base + "./index/ap90",
-    base + "./topics/ap90-51-100",
-    base + "./qrels/ap90-51-100",
+    "./index/ap90",
+    "./topics/ap90-51-100",
+    "./qrels/ap90-51-100",
     True
 )
 
